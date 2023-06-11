@@ -8,21 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  pslib,
+  vut,
+  logiscool,
+  nextjs,
+  progressr,
+  portfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -46,7 +42,7 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Frontend Developer',
     icon: mobile,
   },
   {
@@ -54,7 +50,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Designer',
     icon: creator,
   },
 ];
@@ -81,20 +77,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
   },
   {
     name: 'Three JS',
@@ -109,157 +97,108 @@ const technologies = [
     icon: figma,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'nextjs',
+    icon: nextjs,
   },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    title: 'High school',
+    company_name: 'SPŠSE a VOŠ Liberec',
+    icon: pslib,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'September 2016 - June 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'First intrtoduction to programming',
+      'Mostly working with C# Asp.net core, implementing backend aplications and APIs',
+      'Introduction to frontend development with HTML, CSS, JS and React',
+      'Graduation thesis: "Reservation web application" in React and C# Asp.net core',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'University',
+    company_name: 'VUT FIT Brno',
+    icon: vut,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Sep 2021 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Currently studying at VUT FIT Brno in the field of Information Technology',
+      'Worked on various projects mostly not related to web development',
+      'Compiler(C) - implementation of a compiler for a custom language',
+      'Interpreter(Python) - implementation of an interpreter for a custom language',
+      'Parser(PHP) - implementation of a parser for a custom language',
+      'Progressr(SvelteKit, TS, TailwindCSS, Firebase) - web application for tracking progress in various fields (currently in development)',
     ],
   },
   {
     title: 'Web Developer',
     company_name: 'Shopify',
-    icon: shopify,
+    icon: nextjs,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: '2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developing and maintaining web applications using Next.js and other related technologies.',
+      'Creating web presentations for clients',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Python Lecturer',
+    company_name: 'Logiscool',
+    icon: logiscool,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Jan 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Teaching kids the basics of programming in Python a Data Science',
+      'Mostly working with kids aged 10-16 in online classes',
+      'Teaching how to think logically and solve problems',
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Progressr',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web application for tracking progress in various fields. Users can create their own progress trackers and share them with others.',
     tags: [
       {
-        name: 'react',
+        name: 'SvelteKit',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'Firebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'TailwindCSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: progressr,
+    source_code_link: 'https://github.com/polimich/FIT-VUT-ITU',
   },
   {
-    name: 'Job IT',
+    name: 'Portfolio',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'My personal portfolio website. It is a single page application built with React and TailwindCSS a ThreeJS',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'ThreeJS',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'TailwindCSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
+    image: portfolio,
     source_code_link: 'https://github.com/',
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
